@@ -1,0 +1,59 @@
+.background-modal {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background: transparent;
+}
+.edit-modal {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    box-shadow: 0 0 4px 0 black;
+    border-radius: 5px;
+    padding: 20px;
+    .card-edit-form {
+        display: flex;
+        flex-direction: column;
+    }
+    label {
+        display: grid;
+        grid-template-columns: 100px 1fr 1fr;
+        align-items: center;
+        span {
+            margin-left: 10px;
+        }
+    }
+    .img-container {
+        // background-image: url("https://www.generationsforpeace.org/wp-content/uploads/2018/03/empty.jpg");
+        // background-repeat: no-repeat;
+        min-height: 400px;
+        img {
+            width: 600px;
+            border: 2px solid gray;
+        }
+    }
+    .exit-btn {
+        align-self: flex-end;
+    }
+    .delete-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        p {
+            margin: 0;
+        }
+        span {
+            cursor: pointer;
+            margin: 5px;
+        }
+        span:first-of-type {
+            margin-left: 20px;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.bold {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.errMsg {
+    color: red;
+}
+.exit-btn,
+.del-btn {
+    &:hover {
+        background-color: red;
+        color: white;
+    }
+}
+.save-btn {
+    &:hover {
+        background-color: rgb(17, 209, 17);
+        color: white;
+    }
+}
+.add-btn {
+    &:hover {
+        background-color: rgb(27, 169, 216);
+    }
+}

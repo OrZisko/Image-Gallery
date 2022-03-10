@@ -1,0 +1,16 @@
+#root {
+    height: 100vh;
+}
+
+#app {
+    height: 100%;
+    display: grid; 
+    grid-template-columns: minmax(20px, 1fr) minmax(auto, 940px) minmax(20px, 1fr);
+    grid-template-rows: 100px 1fr;
+    .app-header {
+        grid-column: 1/-1;
+    }
+    >main {
+        grid-column: 2;
+    }
+}

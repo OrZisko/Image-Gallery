@@ -1,0 +1,9 @@
+.pages-container {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: 25px auto;
+    li {
+        cursor: pointer;
+    }
+}

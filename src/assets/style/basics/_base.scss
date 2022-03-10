@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-size: 18px;
+}
+* {
+    box-sizing: border-box;
+}
+
+input {
+    background: none;
+    height: 2em;
+    padding: 10px;
+    border-style: ridge;
+    border-radius: 8px;
+    font-size: 1rem;
+    &:focus-visible {
+        outline: none;
+    }
+}
+
+button {
+    background-color: white;
+    border-radius: 15px;
+    margin: 2px 5px;
+    font: inherit;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
